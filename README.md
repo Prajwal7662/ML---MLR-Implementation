@@ -5,127 +5,19 @@ Multiple Linear Regression (MLR) is a supervised machine learning algorithm used
 
 The model assumes a linear relationship between the input variables and the output:
 
-𝑌
-=
-𝛽
-0
-+
-𝛽
-1
-𝑋
-1
-+
-𝛽
-2
-𝑋
-2
-+
-.
-.
-.
-+
-𝛽
-𝑛
-𝑋
-𝑛
-+
-𝜖
-Y=β
-0
-	​
-
-+β
-1
-	​
-
-X
-1
-	​
-
-+β
-2
-	​
-
-X
-2
-	​
-
-+...+β
-n
-	​
-
-X
-n
-	​
-
-+ϵ
+𝑌=𝛽0+𝛽1𝑋1+𝛽2𝑋2+...+𝛽𝑛𝑋𝑛+𝜖Y=β0	+β1X1+β2X2+...+βnXn+ϵ
 
 Where:
 
 𝑌
 Y = dependent variable (target)
 
-𝑋
-1
-,
-𝑋
-2
-,
-.
-.
-.
-,
-𝑋
-𝑛
-X
-1
-	​
+𝑋1,𝑋2,..,𝑋𝑛X1,X2,...,Xn	​= independent variables (features)
+𝛽0β0 = intercept
 
-,X
-2
-	​
+𝛽1,𝛽2,...,𝛽𝑛β1,β2,...,βn = coefficients
 
-,...,X
-n
-	​
 
- = independent variables (features)
-
-𝛽
-0
-β
-0
-	​
-
- = intercept
-
-𝛽
-1
-,
-𝛽
-2
-,
-.
-.
-.
-,
-𝛽
-𝑛
-β
-1
-	​
-
-,β
-2
-	​
-
-,...,β
-n
-	​
-
- = coefficients
-
-𝜖
 ϵ = error term
 
 🚀 Steps in Implementation
